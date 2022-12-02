@@ -1,7 +1,7 @@
 import streamlit as st
 import i18n
 from streamlit.components.v1 import html
-from os import path, dirname
+from os import path
 
 
 def change_language():
