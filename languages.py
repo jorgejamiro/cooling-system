@@ -21,6 +21,7 @@ def load_text(file_path):
 
 def language_init():
     BASE_PATH = os.path.dirname(__file__)
+    st.write(BASE_PATH)
     
     i18n.load_path.append(BASE_PATH)
 
