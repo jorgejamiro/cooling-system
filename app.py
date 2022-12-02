@@ -71,9 +71,7 @@ language_init()
 
 #st.write(i18n.get('locale'))
 #st.write(i18n.load_path)
-#st.write(open('./translate.en.yml').read())
-i18n.add_translation('String in Language 1', 'String in Language 2')
-st.write(i18n.t('String in Language 1')) # String in Language 2
+#st.write(open('/app/translate.en.yml').read())
 
 st.markdown(i18n.t('translate.title'), unsafe_allow_html=True)
 st.write('\n')
