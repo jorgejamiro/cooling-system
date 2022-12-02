@@ -70,6 +70,7 @@ def sgd(x, y, m_init, b_init, epochs):
 language_init()
 
 st.write(i18n.get('locale'))
+st.write(i18n.load_path)
 
 st.markdown(i18n.t('translate.title'), unsafe_allow_html=True)
 st.write('\n')
