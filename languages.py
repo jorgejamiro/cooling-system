@@ -22,7 +22,8 @@ def load_text(file_path):
 def language_init():
     BASE_PATH = os.path.dirname(__file__)
     
-    i18n.load_path = '/app/'
+    i18n.load_path.append('/app/')
+    st.write(i18n.load_path)
 
     if 'lng' not in st.session_state:
         st.session_state['lng'] = 'en'
