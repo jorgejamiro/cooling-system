@@ -1,7 +1,7 @@
 import streamlit as st
 import i18n
 from streamlit.components.v1 import html
-from os import abspath, dirname
+from os import path, dirname
 
 
 def change_language():
@@ -20,9 +20,9 @@ def load_text(file_path):
 
 
 def language_init():
-    CURRENT_DIRECTORY = dirname(abspath(__file__))
+    BASE_PATH = os.path.dirname(__file__)
     
-    i18n.load_path.append(CURRENT_DIRECTORY)
+    i18n.load_path.append(BASE_PATH)
 
     if 'lng' not in st.session_state:
         st.session_state['lng'] = 'en'
