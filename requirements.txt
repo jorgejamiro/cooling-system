@@ -1,5 +1,5 @@
 streamlit==1.11.0
-http://download.pytorch.org/whl/cpu/torch/torch-1.13.0+cpu-cp310-cp310-linux_x86_64.whl
+http://download.pytorch.org/whl/cpu/torch-1.13.0+cpu-cp310-cp310-linux_x86_64.whl
 matplotlib==3.5.1
 numpy==1.21.5
 pandas==1.4.3
