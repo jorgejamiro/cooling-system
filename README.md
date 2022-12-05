@@ -1,4 +1,3 @@
 # cooling-system
 Streamlit web app. 
-A cooling system with the purpose of lowering the temperature of a particular device by using a refrigerant fluid. 
-Applying SGD method in order to get a Regression Line's slope and intercept values that predict actual values as good as possible.
+Cooling system with the purpose of lowering the temperature of a particular device by using a refrigerant fluid. Linear regression was used in order to build a prediction system which is able to approach the fluid's behavior. In order to reach this goal, SGD (Stochastic Gradient Descent) will be used. This method will adjust regression line's slope (gradient) and intercept values, reducing a cost function value as much as posible after a certain number of iterations (epochs).
